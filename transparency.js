@@ -15,6 +15,6 @@ for(c in courses) {
         var str = elem.style.backgroundColor;
         str = str.replace("rgb", "rgba");
         str = str.replace(")", ", 0.75)");
-		elem.style.backgroundColor = str;
+	elem.style.backgroundColor = str;
     }
 }
